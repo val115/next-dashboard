@@ -114,6 +114,14 @@ git commit -m "first commit"
 git remote add origin https://github.com/val115/nextjs-dashboard.git (ссылка на ваш репозиторий)
 git push -u origin main
 
+echo "# test-next" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/val115/test-next.git
+git push -u origin main
+
 //делается один раз!! git-scm.com
 git config --global user.name "Val115" - имя пользователя
 git config --global user.email valfed38@yandex.ru  - мэил пользователя
