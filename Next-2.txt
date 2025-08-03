@@ -141,11 +141,11 @@ git add --all
 
 git commit -m "first commit"  - Record changes to the repository
 git branch -M main (main - ветка)
-git remote add origin https://github.com/val115/nextjs-dashboard.git
+git remote add origin https://github.com/val115/next-dashboard.git
 git push -u origin main   - main - ветка (основная ветка)git
 
 …or push an existing repository from the command line
-git remote add origin https://github.com/val115/nextjs-dashboard.git
+git remote add origin https://github.com/val115/next-dashboard.git
 git branch -M main
 git push -u origin main
 
