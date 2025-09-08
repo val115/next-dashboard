@@ -1,12 +1,9 @@
 https://nextjs.org/learn/dashboard-app/getting-started
 
 npm install -g pnpm
- pnpm dev
+npx create-next-app@latest nextjs-dashboard --example "https://github.com/vercel/next-learn/tree/main/dashboard/starter-example" --use-pnpm
+pnpm dev
  ----------
-npx create-next-app@latest nextjs-dashboard --example --use-pnpm
-"https://github.com/vercel/next-learn/tree/main/dashboard/starter-example" 
-
-
 
 https://reactdev.ru/libs/nextjs/app-router/css-styling/#_2
 Стили
@@ -149,7 +146,7 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/val115/test-next.git
+git remote add origin https://github.com/val115/next-dashboard.git
 git push -u origin main
 -----------------
 Команда git push -u origin main используется для отправки локального контента на GitHub. В коде origin — имя вашего удалённого репозитория по умолчанию, а флаг -u — upstream, что эквивалентно -set-upstream .
