@@ -11,6 +11,7 @@ export default function Page() {
     <main className="flex min-h-screen flex-col p-6">
 
       <h1 className="text-blue-500">I'm blue! test</h1>
+      <div>Hello Val commit 1</div>
 
       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
 
